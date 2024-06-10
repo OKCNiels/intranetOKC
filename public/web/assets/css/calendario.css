@@ -1,0 +1,152 @@
+#demos {
+    /* font-family: 'Source Sans Pro'; */
+    padding: 65px;
+}
+
+#demos .section-desc {
+    margin-bottom: 10px;
+}
+
+#demos .action-buttons {
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+#demos .action-buttons button.btn-action {
+    margin-right: 10px;
+}
+
+#demos .action-buttons button.btn-action:last-child {
+    margin-right: 0;
+}
+
+section .section-content {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+section .section-content::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 40%;
+    height: 3px;
+    background-image: -o-linear-gradient(left, transparent, #fff, transparent);
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#fff), to(transparent));
+    background-image: linear-gradient(to right, transparent, #fff, transparent);
+    -webkit-transform: translate(-50%, 40px);
+    -ms-transform: translate(-50%, 40px);
+    transform: translate(-50%, 40px);
+}
+
+section .section-content:last-of-type:not(:first-child)::after {
+    content: none;
+}
+
+section .section-content {
+    margin-bottom: 40px
+}
+
+section .section-content::after {
+    width: 50%;
+    -webkit-transform: translate(-50%, 30px);
+    -ms-transform: translate(-50%, 30px);
+    transform: translate(-50%, 30px)
+}
+
+.console-log {
+    position: relative;
+    width: 100%;
+    padding: 26px 10px 10px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px auto 30px auto;
+    -webkit-box-shadow: 0 10px 20px -5px rgba(19, 31, 51, .65);
+    box-shadow: 0 10px 20px -5px rgba(19, 31, 51, .65);
+}
+
+.console-log::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff5f56;
+    -webkit-box-shadow: 16px 0 0 #ffbd2e, 32px 0 0 #27c93f;
+    box-shadow: 16px 0 0 #ffbd2e, 32px 0 0 #27c93f;
+}
+
+.console-log.--md {
+    width: 65%;
+}
+
+.console-log.--sm {
+    width: 50%;
+}
+
+.console-log.--ads {
+    max-width: 400px;
+}
+
+.console-log>.log-content {
+    overflow: auto;
+}
+
+#features>.console-log>.log-content {
+    background-color: #313131;
+}
+
+#themes .theme-content>.console-log {
+    margin: 0;
+}
+
+#themes .theme-content>.console-log>.log-content>img {
+    width: 100%;
+}
+
+#themes .theme-content>.console-log>.log-content>pre {
+    margin: 4px 0 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    #themes .theme-content>.console-log>.log-content>img {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .console-log.--md,
+    .console-log.--sm {
+        width: 100%
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .console-log {
+        padding: 18px 8px 8px 8px;
+        border-radius: 6px
+    }
+
+    .console-log::after {
+        width: 6px;
+        height: 6px;
+        top: 6px;
+        left: 8px;
+        -webkit-box-shadow: 10px 0 0 #ffbd2e, 20px 0 0 #27c93f;
+        box-shadow: 10px 0 0 #ffbd2e, 20px 0 0 #27c93f
+    }
+
+    #themes .theme-content>.console-log>.log-content>pre {
+        margin: 0
+    }
+}
+
+.royal-navy .calendar-inner{
+    height: 640px !important;
+}

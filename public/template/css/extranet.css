@@ -1,0 +1,31 @@
+.top-footer p:hover{
+    color: rgb(225 0 6) !important;
+}
+.top-footer a address:hover, .top-footer a:hover{
+    color: rgb(225 0 6) !important;
+}
+.side-menu__item:hover .side-menu__icon, .side-menu__item:hover .side-menu__label, .side-menu__item:focus .side-menu__icon, .side-menu__item:focus .side-menu__label{
+    color: rgb(225 0 6) !important;
+}
+.btn-okc-extranet{
+    color: #fff;
+    background: #a40112 !important;
+}
+.btn-okc-extranet:hover{
+    color: #fff;
+    border-color: #cd000a;
+    opacity: 0.7;
+}
+#back-to-top {
+    background: rgb(165 1 17);
+    border: 2px solid rgb(162 1 18);
+}
+
+#back-to-top:hover{
+    color: rgb(177 1 2) !important;
+    border: 2px solid rgb(169 1 17) !important;
+}
+
+.landing-page .top-footer h6::before{
+    border: 2px solid #e10002 !important;
+}

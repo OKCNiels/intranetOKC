@@ -1,0 +1,98 @@
+/* Scroll */
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b8b8b8;
+    border-radius: 5px;
+}
+
+body .dataTables_wrapper .dataTables_filter input[type=search] {
+    margin: 0;
+    margin-left: 4px;
+    border-color: #dbdbdb;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+body .dataTables_wrapper .dataTables_filter button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+body .dataTables_wrapper .dt-buttons.btn-group {
+    inset-block-start: initial;
+    inset-inline-start: initial;
+}
+.modal .form-control,
+.modal  .select2-container--default .select2-selection--single {
+    border: 1px solid #e2e2e2 !important;
+}
+body textarea {
+    resize: none;
+}
+body .modal .modal-title,
+body .modal label.form-label {
+    font-weight: 500;
+}
+table.table thead tr th {
+    font-size: 12.5px;
+}
+table.table tbody tr td {
+    vertical-align: middle;
+    font-size: 11px;
+}
+table.table-inbox tr td i:hover {
+    color: #fff;
+}
+.select2 .select2-selection__clear {
+    right: 10px;
+}
+.modal .form-switch {
+    cursor: pointer;
+}
+.modal .form-switch .form-check-input {
+    height: 1.5em;
+    width: 3.2em;
+}
+.modal .form-switch .form-check-label {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.dataTables_wrapper {
+    margin-bottom: 30px;
+}
+.lobibox-notify-wrapper {
+    z-index: 99999;
+}
+.swal2-styled.swal2-confirm,
+.swal2-styled.swal2-cancel {
+    font-size: 13px;
+}
+body h2.swal2-title {
+    font-size: 20px;
+}
+
+/* Colores */
+.flag-aprobar {
+    background-color: #fddede;
+}
+.flag-validar {
+    background-color: #defdf0;
+}
+.modal.show .select2-container--default{
+    width: 100% !important;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+    border: 0px solid var(--primary-bg-color) !important;
+}
+.ui-datepicker .ui-datepicker-calendar td a:hover{
+    color: #ffffff;
+}
+/* .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+    z-index: 10009 !important;
+} */
+.datepicker{z-index:10009 !important;}

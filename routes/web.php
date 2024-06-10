@@ -129,7 +129,7 @@ Route::middleware(['auth'])->group(function () {
         });
         // });
     });
-
+    // estas rutas no se usaran ----
     Route::name('control.')->prefix('control')->group(function () {
         Route::name('guias.')->prefix('guias')->group(function () {
             Route::get('index', [GuiaController::class, 'index'])->name('index');
@@ -168,6 +168,8 @@ Route::middleware(['auth'])->group(function () {
         });
 
     });
+
+    // -------------------
 
     Route::name('sedes.')->prefix('sedes')->group(function () {
 

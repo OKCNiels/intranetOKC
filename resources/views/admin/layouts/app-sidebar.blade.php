@@ -89,7 +89,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="sub-category">
+                {{-- <li class="sub-category">
                     <h3>CONTROL DE GUIAS DE REMISION</h3>
                 </li>
 
@@ -104,7 +104,7 @@
                         <i class="side-menu__icon fe fe-file-text"></i>
                         <span class="side-menu__label">Incidencias</span>
                     </a>
-                </li>
+                </li> --}}
                 {{-- @foreach ($modulos_padre as $item)
                     @if (!empty($item->target))
                     <li>
